@@ -2,9 +2,8 @@
 
 **This crate is not 100% finished, and you _may_ encounter bugs that I missed!**
 
-`dataparser_core` is a flexible and efficient binary parsing and serialization library for Rust. It provides the core infrastructure for working with binary data in a structured, ergonomic, and low-level way.
-
-This crate is intended to serve as the foundation for parsers, encoders, and binary protocol implementations, and is designed to be extensible, testable, and compatible with both synchronous and asynchronous I/O.
+A flexible and efficient binary parsing and serialization library for Rust.
+This crate is intended to serve as the foundation for parsers, encoders, and binary protocol implementations, and is designed to be extensible, testable, and compatible with both synchronous and asynchronous I/O. Inspired by [nom](https://crates.io/crates/nom) <3
 
 ---
 
@@ -110,10 +109,13 @@ fn main() -> io::Result<()> {
 ## Installation
 
 Add this to your `Cargo.toml` file:
+
 ```toml
 dataparser_core = "0.1.0"
 ```
+
 Or alternatively, using `cargo`:
+
 ```shell
 cargo add dataparser_core
 ```

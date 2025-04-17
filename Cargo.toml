@@ -4,6 +4,8 @@ version = "0.1.0"
 name = "dataparser_core"
 readme = "README.md"
 repository = "https://github.com/mrLochness350/dataparser_core"
+description = "A flexible and efficient binary parsing and serialization library for Rust"
+license = "MIT"
 
 [lib]
 name = "dataparser_core"
